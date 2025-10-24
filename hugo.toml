@@ -1,4 +1,18 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
 theme = 'hugo-theme-stack'
+DefaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+[languages]
+  [languages.ja]
+    languageName = "日本語"
+    title = "AI Visualizing.JP"
+    weight = 1
+
+[params.sidebar]
+    emoji = "🍥"
+    subtitle = ""
+    [params.sidebar.avatar]
+        enabled = true
+        local = true
+        src = "img/avatar.png"
